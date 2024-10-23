@@ -1,12 +1,17 @@
 body, html {
     margin: 0;
     padding: 0;
+    height:100%;
     font-family: Arial, sans-serif;
 }
 
 h1 {
     text-align: center;
     margin: 20px 0;
+}
+
+a{
+  text-decoration: none;
 }
 
 .container {
@@ -21,6 +26,10 @@ img {
     max-width: 500px;
     margin: 0 auto; 
     display: block; 
+}
+
+.mainContainer:first-child {
+  border: 2px solid orange;
 }
 
 .mainContainer, .mainContainer1, .mainContainer2 {
@@ -54,8 +63,6 @@ img {
     padding: 10px; 
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
 }
-
-
 
 @media (max-width: 768px) {
     .flex-wrapper {
